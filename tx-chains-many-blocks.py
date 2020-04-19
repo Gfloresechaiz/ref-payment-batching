@@ -5,7 +5,7 @@ from bitcoin.core import x, lx, b2x, b2lx
 from bitcoin.core import CScript
 import csv
 
-with open('datasa.csv', mode='w') as data:
+with open('data.csv', mode='w') as data:
   data_writer = csv.writer(data, delimiter=',', quotechar = '"', quoting=csv.QUOTE_MINIMAL)
   ## Arbitrary block height; might differ from average block.
   ## Note: python-bitcoin 0.8 doesn't work for me on segwit blocks, so I
