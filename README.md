@@ -10,6 +10,9 @@ should run the following commands:
 ```
 virtualenv -p python3 venv
 . venv/bin/activate
+pip3 install requirements.txt
+touch data.csv
+python3 tx-chains-many-blocks.py
 ```
 
 To use the `*.plot` file, you will need to install gnuplot (version 4
